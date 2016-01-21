@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.clearavenue.jbsaworkorder.StartFind">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/findwo_title"
+        android:id="@+id/StartFindTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/knoiw_num"
+        android:id="@+id/know_num"
+        android:layout_marginTop="72dp"
+        android:lines="4"
+        android:singleLine="false"
+        android:textSize="20sp"
+        android:background="#dc5c5c5c"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:layout_below="@+id/StartFindTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dont_know_num"
+        android:id="@+id/dont_know_num"
+        android:layout_marginTop="55dp"
+        android:lines="4"
+        android:singleLine="false"
+        android:textSize="20sp"
+        android:background="#dc1f1f1f"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/know_num"
+        android:layout_alignStart="@+id/know_num"
+        android:layout_alignEnd="@+id/know_num"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signout"
+        android:id="@+id/log_out"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:onClick="onClick"/>
+</RelativeLayout>

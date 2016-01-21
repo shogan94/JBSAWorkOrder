@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">JBSA Work Order</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">User ID</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Log In</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="description_image">LOGO</string>
+    <string name="hyperlink_forgot_id_password">"Forgot User ID or Password?"</string>
+    <string name="hyperlink_contact_support"> "Contact Support" </string>
+    <string name="contact_call_number">"555 555 5555"</string>
+    <string name="contact_email_address">"help@jbsamobile.com"</string>
+    <string name="text_call">"Call"</string>
+    <string name="text_email">"Email"</string>
+    <string name="title_activity_forgot_id">forgotID</string>
+    <string name="image_description">LOGO</string>
+    <string name="contact_title">Contact Support</string>
+    <string name="back_button_description">back</string>
+    <string name="back">X</string>
+    <string name="reset_paragraph">Enter your email address and you will receive instructions to reset your account.</string>
+    <string name="action_submit">"Submit"</string>
+    <string name="hint_email">Email Address</string>
+    <string name="title_activity_find_wo">FindWO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="searchWO">Search Work Order</string>
+    <string name="createWO">Create Work Order</string>
+    <string name="signout">Log Out</string>
+    <string name="findWOTitle">Find a Work Order</string>
+    <string name="hint_facility">Facility Number (Optional)</string>
+    <string name="hint_installation">Installation (Optional)</string>
+    <string name="hint_commandPartner">Command / Mission Partner</string>
+    <string name="title_activity_find">Find</string>
+    <string name="title_activity_create_wo">CreateWO</string>
+    <string name="text_userlabel">Android Studio</string>
+    <string name="title_createWO">Create a Work Order</string>
+    <string name="hint_base">Base</string>
+    <string name="hint_location">Location</string>
+    <string name="hint_commandpartner">Command / Mission Partner</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_facility_createwo">Facility Number</string>
+    <string name="hint_cost">Cost</string>
+    <string name="hint_tracking">Tracking Indicator</string>
+    <string name="home_button">Home</string>
+    <string name="back_button">Back</string>
+    <string name="success_sentence">You will recieve an email with instructions to access your account</string>
+    <string name="success_title">Request Successful!</string>
+    <string name="dont_know_num">I don\'t know my Work Order #</string>
+    <string name="knoiw_num">I know my Work Order #</string>
+    <string name="findwo_title">Find My Work Order</string>
+    <string name="next_button">Next</string>
+    <string name="hint_enter_wo">5 digit work order number</string>
+    <string name="title_enter_wo">Enter Work Order #</string>
+    <string name="text_basefiller">Joint Base San Antonio</string>
+    <string name="text_locationfiller">Lackland</string>
+    <string name="location">Location:</string>
+    <string name="partner">Partner:</string>
+    <string name="base">Base:</string>
+</resources>
